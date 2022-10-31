@@ -1,4 +1,4 @@
-object CMDExample extends App {
+object Application extends App {
   if (args.length != 2) {
     throw new IllegalArgumentException("Wrong number of parameters, 2 parameters should be given")
   }
